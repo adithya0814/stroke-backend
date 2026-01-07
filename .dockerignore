@@ -1,0 +1,7 @@
+venv
+__pycache__
+.git
+.env
+generated_pdfs
+*.pyc
+.DS_Store
