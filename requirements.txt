@@ -1,0 +1,44 @@
+# --- Web Frameworks (Choose One) ---
+# Flask Stack
+# flask==3.0.2
+# werkzeug==3.0.1
+
+# FastAPI Stack
+fastapi==0.109.2
+uvicorn[standard]==0.27.1
+
+# Django Stack
+# django==5.0.2
+# djangorestframework==3.14.0
+# django-cors-headers==4.3.1
+
+# --- Database & ORM ---
+# sqlalchemy==2.0.27        # Common for Flask/FastAPI
+# flask-sqlalchemy==3.1.1   # Specific to Flask
+# psycopg2-binary==2.9.9    # PostgreSQL Driver
+# mysql-connector-python==8.3.0 # MySQL Driver
+ pymongo==4.6.1            # MongoDB Driver
+ motor==3.7.1              # Async MongoDB (for FastAPI)
+
+# --- Utilities ---
+python-dotenv==1.0.1        # Loading .env files
+requests==2.31.0            # Making HTTP requests to other APIs
+pydantic==2.6.1             # Data validation (Standard in FastAPI)
+pyjwt==2.8.0                # JWT Tokens for Authentication
+bcrypt==4.1.2               # Password Hashing
+email-validator             # For Pydantic EmailStr
+python-multipart            # For FastAPI Form/File upload
+
+# --- Production Server ---
+gunicorn==21.2.0          # WSGI Server (Flask/Django)
+
+# --- Machine Learning & Computer Vision ---
+mediapipe==0.10.14
+protobuf<5
+opencv-python==4.9.0.80
+numpy==1.26.4
+pandas==2.2.0
+joblib==1.3.2
+scikit-learn==1.4.0
+xgboost==2.0.3
+reportlab==4.0.7
