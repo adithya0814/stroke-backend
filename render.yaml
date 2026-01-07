@@ -5,7 +5,7 @@ services:
     env: python
     region: ohio
     buildCommand: "./render-build.sh"
-    startCommand: "gunicorn main:app -k uvicorn.workers.UvicornWorker"
+    startCommand: "gunicorn app:app -k uvicorn.workers.UvicornWorker"
     envVars:
       - key: PYTHON_VERSION
         value: 3.12.8
