@@ -33,7 +33,7 @@ python-multipart            # For FastAPI Form/File upload
 gunicorn==21.2.0          # WSGI Server (Flask/Django)
 
 # --- Machine Learning & Computer Vision ---
-mediapipe==0.10.14
+mediapipe>=0.10.14
 protobuf<5
 opencv-python==4.9.0.80
 numpy==1.26.4

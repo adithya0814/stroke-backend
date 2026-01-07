@@ -8,7 +8,7 @@ services:
     startCommand: "gunicorn main:app -k uvicorn.workers.UvicornWorker"
     envVars:
       - key: PYTHON_VERSION
-        value: 3.10.0
+        value: 3.12.8
       - key: MONGO_DETAILS
         sync: false
       - key: SECRET_KEY
