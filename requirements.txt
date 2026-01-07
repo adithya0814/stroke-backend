@@ -17,7 +17,7 @@ uvicorn[standard]==0.27.1
 # flask-sqlalchemy==3.1.1   # Specific to Flask
 # psycopg2-binary==2.9.9    # PostgreSQL Driver
 # mysql-connector-python==8.3.0 # MySQL Driver
- pymongo==4.6.1            # MongoDB Driver
+pymongo==4.9.0          # MongoDB Driver
  motor==3.7.1              # Async MongoDB (for FastAPI)
 
 # --- Utilities ---
